@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fffbe6;
+  color: #222;
+}
+
+header {
+  background-image: url('images/wood-texture.png');
+  background-size: cover;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+nav a, nav button {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem;
+}
+
+.poem {
+  font-style: italic;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #ffe;
+}
+
+.comic-border {
+  border: 4px dashed #000;
+  background-color: #fffacd;
+}
+
+.hero-meme {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.tokenomics-chart {
+  display: block;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.token-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark header {
+  background-blend-mode: multiply;
+}
+
+body.dark .comic-border {
+  background-color: #333;
+}
